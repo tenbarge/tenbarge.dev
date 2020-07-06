@@ -17,7 +17,7 @@ disqusShortname = ""
 googleAnalytics = "UA-154221637-1"
 
 [params]
-    author = "Cory Tenbarge"
+    #author = "Cory Tenbarge"
     #info = "params.info"
     description = "params.description"
     keywords = "blog,developer,personal"
@@ -52,12 +52,18 @@ googleAnalytics = "UA-154221637-1"
     icon = "fab fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/cory-tenbarge-b377a919/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium fa-2x"
+    weight = 3
+    url = "https://medium.com/@cory.tenbarge/"
+[[params.social]]
+    name = "Stack Overflow"
+    icon = "fab fa-stack-overflow fa-2x"
+    weight = 3
+    url = "https://stackoverflow.com/users/9979840/tenbarge/"
 
 # Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
 [[menu.main]]
     name = "About"
     weight = 2
